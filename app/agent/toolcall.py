@@ -120,6 +120,9 @@ class ToolCallAgent(ReActAgent):
                 f"🎯 Tool '{command.function.name}' completed its mission! Result: {result}"
             )
 
+            if self.max_observe:
+                result = result[: self.max_observe]
+
             # Add tool response to memory
             tool_msg = Message.tool_message(
                 content=result, tool_call_id=command.id, name=command.function.name
