@@ -1,0 +1,25 @@
+Website Requirements and Features for Extracting FRM Exam Q&A
+
+1. User Needs:
+   - Target Users: FRM exam candidates, educators
+   - Primary Goals: Access past exam questions, download Q&A in CSV format
+
+2. Core Features:
+   - User-friendly interface for easy navigation
+   - Search functionality to find specific questions
+   - Ability to filter questions by topic, difficulty, or year
+   - Backend system to extract and update questions and answers
+   - CSV download functionality for offline access
+
+3. Technical Specifications:
+   - Technology Stack: HTML/CSS for frontend, Python/Node.js for backend
+   - Database Requirements: Storing questions and answers
+   - Security Measures: Protect user data and content
+
+4. Design Considerations:
+   - Responsive design for mobile and desktop users
+   - Accessibility features for users with disabilities
+
+5. Additional Features:
+   - User account creation and management
+   - Feedback system for users to report issues or suggest improvements
